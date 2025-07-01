@@ -1,0 +1,63 @@
+.main {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  padding: 10px 20px 10px 20px;
+  align-items: start;
+}
+
+.box1 {
+  width: 400px;
+  height: 200px;
+  background-image: url("gurm.jfif");
+  background-size: cover;
+  border-radius: 10px;
+  color: white;
+  font-size: 15px;
+}
+
+.box2 {
+  width: 400px;
+  height: 200px;
+  background-image: url("jeju.jfif");
+  background-size: cover;
+  border-radius: 10px;
+  color: white;
+  font-size: 15px;
+}
+
+.box3 {
+  width: 400px;
+  height: 200px;
+  background-image: url("inchon.jfif");
+  background-size: cover;
+  border-radius: 10px;
+  color: white;
+  font-size: 15px;
+}
+
+.box4 {
+  width: 400px;
+  height: 200px;
+  background-image: url("kangrung.jfif");
+  background-size: cover;
+  border-radius: 10px;
+  color: white;
+  font-size: 15px;
+}
+
+.a {
+  font-size: 10px;
+  font: optional;
+  color: darkgrey;
+}
+
+.b {
+  font-size: 10px;
+}
+
+.C {
+  font-size: 10px;
+  text-decoration: underline;
+  text-underline-offset: 5px;
+}
