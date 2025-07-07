@@ -1,0 +1,32 @@
+header {
+  padding: 20px 0px;
+  border-bottom: 1px solid darkgrey;
+  display: flex;
+}
+
+header > nav {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  align-content: center;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+header > button {
+  width: 50%;
+  max-width: 100px;
+  margin-left: 0px auto;
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 9999px;
+  padding: 14px 16px;
+  font-weight: bold;
+}
+
+header > button:hover {
+  background-color: darkgray;
+}
+.pink {
+  color: pink;
+}
