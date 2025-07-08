@@ -1,0 +1,48 @@
+@font-face {
+  font-family: "printingboxBold";
+  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/2507-1@1.0/printingboxBold.woff2")
+    format("woff2");
+  font-weight: 600;
+  font-style: normal;
+}
+
+.first {
+  height: 100vh;
+  background-image: url(l.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.first > .contents {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.first > .contents > h2 {
+  text-align: center;
+  font-family: "printingboxBold";
+  color: white;
+  font-size: 100px;
+  line-height: 1.2;
+}
+
+aside > button {
+  background-color: red;
+  color: white;
+  border-radius: 10px;
+  border: none;
+  text-align: center;
+  padding: 10px 10px;
+  position: fixed;
+  right: 50px;
+  bottom: 50px;
+}
+
+aside > button :hover {
+  background-color: brown;
+}

@@ -1,0 +1,72 @@
+.third {
+  display: flex;
+  justify-content: center;
+}
+
+.head > h6 {
+  color: darkgrey;
+  font-size: 18px;
+  font-family: "printingboxBold";
+}
+
+.head > h2 {
+  font-family: "printingboxBold";
+  font-size: 32px;
+  line-height: 1.5;
+}
+
+.third > .contents {
+  display: flex;
+  flex-direction: row;
+  max-width: 1200px;
+}
+.main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+}
+
+.photo {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  text-align: center;
+  font-family: "printingboxBold";
+  object-fit: cover;
+  border-radius: 10px;
+  padding-bottom: 50px;
+}
+
+.photo > span {
+  color: white;
+  font-size: small;
+  text-align: center;
+  line-height: 1.4;
+  margin: 20px auto;
+}
+
+.photo > button {
+  display: flex;
+  align-items: flex-end;
+  background-color: white;
+  border-radius: 10px;
+  border: 1px solid white;
+  padding: 14px 16px;
+  margin: 20px auto;
+}
+
+.one {
+  background-image: url(q.avif);
+  background-size: cover;
+  width: 400px;
+  height: 480px;
+}
+
+.two {
+  background-image: url(w.avif);
+  background-size: cover;
+  width: 400px;
+  height: 480px;
+}

@@ -2,21 +2,33 @@ header {
   padding: 20px 0px;
   border-bottom: 1px solid darkgrey;
   display: flex;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  background-color: white;
 }
 
 header > nav {
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
   align-content: center;
+
   font-weight: bold;
   font-size: 20px;
 }
 
-header > button {
-  width: 50%;
-  max-width: 100px;
-  margin-left: 0px auto;
+.links {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.links > button {
   background-color: white;
   border: 1px solid white;
   border-radius: 9999px;
@@ -24,7 +36,7 @@ header > button {
   font-weight: bold;
 }
 
-header > button:hover {
+.links > button:hover {
   background-color: darkgray;
 }
 .pink {
